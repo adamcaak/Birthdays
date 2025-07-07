@@ -12,7 +12,8 @@ import SwiftData
 struct BirthdaysApp: App {
     var body: some Scene {
         WindowGroup {
-            .modelContainer(for: Friend.self)
+            ContentView()
+                .modelContainer(for: Friend.self)
         }
     }
 }
