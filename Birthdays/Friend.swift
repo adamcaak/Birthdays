@@ -9,5 +9,5 @@ import Foundation
 
 struct Friend {
     var name: String
-    var birthday: Data
+    var birthday: Date
 }
